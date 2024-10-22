@@ -58,6 +58,9 @@ GEM
       rack (>= 3.0.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
     rainbow (3.1.1)
     regexp_parser (2.9.2)
     rubocop (1.67.0)
@@ -92,6 +95,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
+    webrick (1.8.2)
     zeitwerk (2.7.1)
 
 PLATFORMS
@@ -100,6 +104,7 @@ PLATFORMS
 
 DEPENDENCIES
   kamal (~> 2.2)
+  rackup (~> 2.1)
   rubocop (~> 1.67)
   sinatra (~> 4.0)
 
