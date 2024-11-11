@@ -9,5 +9,5 @@ get '/up' do
 end
 
 get '/' do
-  "Sinatra app deployed as <b>#{APP_NAME}</b> reached under <b>#{request.host}</b>"
+  "Sinatra app deployed as <b>#{APP_NAME}</b> reached under <b>#{request.host}</b><br>Hello Christina!"
 end
