@@ -1,3 +1,5 @@
+* WSL
+* Docker containers
 * SSH Key on the Server
 * GitHub Personal access token:
   * Profile
