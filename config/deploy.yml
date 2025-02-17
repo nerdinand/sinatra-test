@@ -7,7 +7,7 @@ image: nerdinand/sinatra-test
 # Deploy to these servers.
 servers:
   web:
-    - 116.203.85.111
+    - apps.rubymonstas.ch
   # job:
   #   hosts:
   #     - 192.168.0.1
